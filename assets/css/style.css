@@ -1,3 +1,5 @@
+/* Main Content */
+
 body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png"); 
     background-repeat: repeat;  
@@ -6,9 +8,9 @@ body {
 .container {
     width: 960px;
     background-color: #ffffff;
-    border: 1px solid gray;
+    border: 1px solid rgb(209, 209, 209);
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
 }
 
 h2 {
@@ -18,5 +20,25 @@ h2 {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size:
+    font-size: 16px;
+    line-height: 30px;
+    color: #868585;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.about-photo {
+    float: left;
+    padding: 25px;
+}
+
+.about-me {
+    padding: 4px 10px 10px 10px;
+    margin: 0 auto;
+}
+
+/* Contact Form */
