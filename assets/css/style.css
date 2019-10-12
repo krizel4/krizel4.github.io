@@ -129,5 +129,7 @@ li a {
 .footer-content {
     text-align: center;
     width: 100%;
-    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
 }
