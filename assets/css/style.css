@@ -10,6 +10,7 @@ body {
     border: 1px solid #dddddd;
     margin: 0 auto;
     padding: 30px;
+    margin-top: 150px;
 }
 
 h1 {
@@ -83,7 +84,7 @@ li a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: 0 auto;
-    top: 0;
     display: block;
+    top: 0;
+    position: fixed;
 }
