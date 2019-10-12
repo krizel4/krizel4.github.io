@@ -68,7 +68,7 @@ ul {
     border-bottom: 1px solid #cccccc;
   }
   
-  li a {
+li a {
     display: block;
     color:gray;
     text-align: center;
@@ -76,7 +76,7 @@ ul {
     margin: 0 auto;
     text-decoration: none;
     float: right;
-  }
+}
 
 .navtitle {
     float: left;
