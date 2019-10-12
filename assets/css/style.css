@@ -13,6 +13,12 @@ body {
     margin-top: 150px;
 }
 
+hr { 
+    height: 1px;
+    border: 0; 
+    border-top: 2px solid #ccc;
+}
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -68,6 +74,17 @@ ul {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
   }
+
+li::after {
+    content: "|";
+    float: left;
+    color: gray;
+}
+
+li:last-child::after {
+    display: none;
+}
+
   
 li a {
     display: block;
@@ -77,6 +94,8 @@ li a {
     margin: 0 auto;
     text-decoration: none;
     float: right;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .navtitle {
