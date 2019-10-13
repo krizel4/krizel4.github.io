@@ -60,9 +60,15 @@ p {
     background-color: #ffffff;
     position: fixed;
     top: 0;
-    width: 100%; 
+    width: 100%;
+    margin: 0 auto;  
 }
 
+.topnav a:hover {
+    background-color: rgb(218, 185, 104);
+    color: #ffffff;
+}
+  
 ul {
     list-style-type: none;
     margin: 0;
