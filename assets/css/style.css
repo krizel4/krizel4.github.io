@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
     padding: 30px;
     margin-top: 125px;
+    max-width: 100%;
 }
 
 hr { 
@@ -95,6 +96,7 @@ li a {
     left: 15.5%;
     position: absolute;
     top: 2px;
+    max-width: 100%;
 }
 
 /* FOOTER */
@@ -131,6 +133,7 @@ input[type=text], select, textarea {
     margin-top: 5px; 
     margin-bottom: 15px; 
     resize: vertical;
+    max-width: 100%;
   }
   
   input[type=submit] {
@@ -139,11 +142,13 @@ input[type=text], select, textarea {
     padding: 12px 20px;
     border: none;
     font-size: 12px;
+    max-width: 100%
   }
 
   .formtext {
       font-family: Arial, Helvetica, sans-serif;
       font-size: 14px;
+      max-width: 100%
   }
   
 /* Text Box Overlay for Portfolio */
@@ -180,3 +185,11 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
+
+  /* Responsiveness */
+
+  @media screen and (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+      }
+    }
