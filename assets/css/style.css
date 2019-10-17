@@ -209,4 +209,13 @@ input[type=text], select, textarea {
         float: right;
     }
 
+    .row .column {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 200px;
+        -moz-column-width: 200px;
+        column-width: 200px;
+        }
+
     }
