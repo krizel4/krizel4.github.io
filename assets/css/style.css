@@ -1,5 +1,7 @@
 /* Main Content */
-
+* {
+    box-sizing: border-box;
+  }
 
 body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/climpek.png"); 
@@ -195,10 +197,6 @@ input[type=text], select, textarea {
 
 
   @media screen and (max-width: 600px) {
-
-    * {
-        box-sizing: border-box;
-      }
 
     .navtitle {
         width: 100%;
