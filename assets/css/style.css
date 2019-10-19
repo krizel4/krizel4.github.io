@@ -1,4 +1,6 @@
 /* Main Content */
+
+
 body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/climpek.png"); 
     background-repeat: repeat;  
@@ -54,6 +56,18 @@ p {
 
 /* Navigation */
 
+.navtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    left: 15.5%;
+    float: left;
+    margin-top: 30;
+    margin-left: 250px;
+    max-width: 100%;
+}
+
+
 .topnav {
     background-color: #ffffff;
     position: fixed;
@@ -89,15 +103,6 @@ li a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navtitle {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    left: 15.5%;
-    position: absolute;
-    top: 2px;
-    max-width: 100%;
-}
 
 /* FOOTER */
 
@@ -187,35 +192,28 @@ input[type=text], select, textarea {
   }
 
   /* Responsiveness */
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
+
 
   @media screen and (max-width: 600px) {
+
     * {
         box-sizing: border-box;
       }
 
     .navtitle {
-        width: 100px;
-        font-size: 15px;
+        width: 100%;
+        height: 50%;
+        margin-left: 0;   
     }  
 
     .topnav {
-        float: right;
+        margin-right: 70px;
+        margin: 10px;
+        padding: 0px 200px;
     }
 
-    .row .column {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        -webkit-column-width: 200px;
-        -moz-column-width: 200px;
-        column-width: 200px;
-        }
-
+    .column {
+        width: 100%;
     }
+    }
+ 
